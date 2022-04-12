@@ -1,0 +1,47 @@
+
+*{
+   margin: 0;
+   padding: 0;
+
+}
+body {
+ background-color: black;
+   overflow: hidden;
+   width: 100vw;
+   height: 100vh;
+}
+
+@keyframes anime-dvd {
+   0%{
+      top: 75%;
+      left: 93%;
+      fill: white;
+   }
+   33% {
+      top: 0;
+      left: 25%;
+      fill: blue;
+   }
+
+   66% {
+     top: 25%;
+      left: 0%;
+      fill: crimson;
+      
+   }
+
+   100% {
+      top: 93%;
+      left: 75%;
+      fill: yellow;
+   } 
+}
+   
+svg {
+   position: relative; 
+   width: 153px;
+   height: 70px;
+   top: 0;
+   left: 0;
+   animation: anime-dvd 10s forwards infinite alternate-reverse linear;
+}
